@@ -92,6 +92,9 @@ update installation_configs set locked = false;
 
 **Trocando LOGO E NOMES CHATWOOT TERMOS E POLITICA DE PRIVACIDADE**
 
+Acesse seu Super Admin
+</p>
+URL/super_admin
 </p>
 LOGO:
 </p>
@@ -274,39 +277,46 @@ Faça seu cadastro
 **Habilitando configurações ocultas do Chatwoot**
 
 Acesse:
-
+</p>
 http://IP:3003
-
+</p>
 Login: admin@admin.com.br
 Senha: pgadmin
-
-
+</p>
+Crie seu servidor
+</p>
 
 <img src="https://github.com/EngajamentoFlow/chatwoot/blob/main/Registrar.png" alt="Chatwoot-logo" width="1000" />
 
+</p>
+Adicionar nome do servidor
+</p>
+
 <img src="https://github.com/EngajamentoFlow/chatwoot/blob/main/Server.png" alt="Chatwoot-logo" width="1000" />
+
+</p>
+Coloque sua credeciais do banco de dados, a mesma do .env
+</p>
 
 <img src="https://github.com/EngajamentoFlow/chatwoot/blob/main/Acessando1.png" alt="Chatwoot-logo" width="1000" />
 
-<img src="https://github.com/EngajamentoFlow/chatwoot/blob/main/Acessando.png" width="1000" />
-
-
-
 </p>
-No banco de dados PostgreSQL
+Habilitando configurações ocultas do Chatwoot
 </p>
-sudo -u postgres psql
-</p>
-\c chatwoot_production
+Adicione a linha
 </p>
 update installation_configs set locked = false;
 </p>
-\q
-</p>
+
+<img src="https://github.com/EngajamentoFlow/chatwoot/blob/main/Acessando.png" width="1000" />
 
 ----------------------------------------------------------------------------
 
 **Trocando LOGO E NOMES CHATWOOT TERMOS E POLITICA DE PRIVACIDADE**
+
+Acesse seu Super Admin
+</p>
+URL/super_admin
 
 </p>
 LOGO:
@@ -352,8 +362,9 @@ WIDGET_BRAND_URL
 
 **Recopile**
 
-cd pastainstalada
+cd chatwoot
 
+docker compose stop
 docker compose up -d
 
 **Gostou do Tutorial? Faça sua Contribuição**
