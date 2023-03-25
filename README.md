@@ -296,31 +296,15 @@ update installation_configs set locked = false;
 
 ----------------------------------------------------------------------------
 
-**Trocando LOGO E NOMES CHATWOOT TERMOS E POLITICA DE PRIVACIDADE**
-
-Acesse seu Super Admin
-</p>
-URL/super_admin
-
-</p>
-LOGO:
-</p>
-Acesse seu FTP
-</p>
-/home/chatwoot/chatwoot/public/brand-assets
-</p>
-Suba dois arquivos com esse nome
-</p>
-brand-assets/logo.png
-</p>
-logo.png
+**NOMES CHATWOOT TERMOS E POLITICA DE PRIVACIDADE**
 
 **Acesse super Admin**
+
 </p>
 https://seudominio.com.br/super_admin
 </p>
 Opção>installation_configs
-</p>
+
 LOGO
 </p>
 LOGO_THUMBNAIL
