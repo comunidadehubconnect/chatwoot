@@ -84,6 +84,87 @@ docker compose up -d
 Acesse: seudominio.com.br
 </p>
 
+**Configure o Nginx para servir como um proxy de front-end**
+
+sudo apt-get install nginx
+</p>
+cd /etc/nginx/sites-enabled
+</p>
+nano chatwoot.conf
+</p>
+server {
+</p>
+  server_name <yourdomain.com>;
+  </p>
+  # Point upstream to Chatwoot App Server
+  </p>
+  set $upstream 127.0.0.1:3000;
+</p>
+  # Nginx strips out underscore in headers by default
+  </p>
+  # Chatwoot relies on underscore in headers for API
+  </p>
+  # Make sure that the config is set to on.
+  </p>
+  underscores_in_headers on;
+  </p>
+  location /.well-known {
+  </p>
+    alias /var/www/ssl-proof/chatwoot/.well-known;
+    </p>
+  }
+</p>
+  location / {
+  </p>
+    proxy_pass_header Authorization;
+    </p>
+    proxy_pass http://$upstream;
+    </p>
+    proxy_set_header Upgrade $http_upgrade;
+    </p>
+    proxy_set_header Connection "upgrade";
+    </p>
+    proxy_set_header Host $host;
+    </p>
+    proxy_set_header X-Forwarded-Proto $scheme;
+    </p>
+    proxy_set_header X-Forwarded-Ssl on; # Optional
+    </p>
+    proxy_set_header X-Real-IP $remote_addr;
+    </p>
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+</p>
+    proxy_http_version 1.1;
+    </p>
+    proxy_set_header Connection “”;
+    </p>
+    proxy_buffering off;
+</p>
+    client_max_body_size 0;
+    </p>
+    proxy_read_timeout 36000s;
+    </p>
+    proxy_redirect off;
+    </p>
+  }
+  </p>
+  listen 80;
+  </p>
+}
+</p>
+nginx -t
+</p>
+systemctl reload nginx
+</p>
+apt  install certbot
+</p>
+apt-get install python3-certbot-nginx
+</p>
+mkdir -p /var/www/ssl-proof/chatwoot/.well-known
+</p>
+certbot --webroot -w /var/www/ssl-proof/chatwoot/ -d dominio.com -i nginx
+</p>
+
 ----------------------------------------------------------------------------
 
 **Gostou do Tutorial? Faça sua Contribuição**
