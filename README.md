@@ -286,7 +286,7 @@ Senha: pgadmin
 
 <img src="https://github.com/EngajamentoFlow/chatwoot/blob/main/Server.png" alt="Chatwoot-logo" width="1000" />
 
-<img src="https://github.com/EngajamentoFlow/chatwoot/blob/main/Acessando.png" alt="Chatwoot-logo" width="1000" />
+<img src="https://github.com/EngajamentoFlow/chatwoot/blob/main/Acessando1.png" alt="Chatwoot-logo" width="1000" />
 
 <img src="https://github.com/EngajamentoFlow/chatwoot/blob/main/Registrar.png" alt="Chatwoot-logo" width="1000" />
 
