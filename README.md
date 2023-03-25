@@ -49,7 +49,23 @@ yes
 </p>
 yes
 </p>
+Alterando Idioma e atiavando sua tela de cadastro
+</p>
+cd /home/chatwoot/chatwoot
+</p>
+nano .env
+</p>
+Altere a linha
+</p>
+DEFAULT_LOCALE=pt_BR
+</p>
+ENABLE_ACCOUNT_SIGNUP=true
+</p>
+sudo systemctl restart chatwoot.target
+</p>
 Acesse: seudominio.com.br
+</p>
+Faça seu cadastro
 
 ----------------------------------------------------------------------------
 
@@ -74,7 +90,15 @@ nano docker-compose.yaml
 </p>
 nano .env
 </p>
-Coloque as usuario, DB, senhas Postgres igual.
+colocar mesma senha usuário e banco de dados nos dois arquivos postgres
+</p>
+Altere as linhas .env
+</p>
+FRONTEND_URL=
+</p>
+DEFAULT_LOCALE=pt_BR
+</p>
+ENABLE_ACCOUNT_SIGNUP=true
 </p>
 
 **Prepare o banco de dados executando as migrações**
@@ -174,6 +198,9 @@ sudo certbot --nginx
  </p>
 sudo service nginx restart
 </p>
+Acesse: seudominio.com.br
+</p>
+Faça seu cadastro
 
 ----------------------------------------------------------------------------
 
