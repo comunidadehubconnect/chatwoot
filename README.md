@@ -71,11 +71,15 @@ wget -O docker-compose.yaml https://raw.githubusercontent.com/chatwoot/chatwoot/
 </p>
 nano docker-compose.yaml
 </p>
-Prepare o banco de dados executando as migrações
+
+**Prepare o banco de dados executando as migrações**
+
 </p>
 docker compose run --rm rails bundle exec rails db:chatwoot_prepare
 </p>
-Coloque o serviço em funcionamento
+
+**Coloque o serviço em funcionamento**
+
 </p>
 docker compose up -d
 </p>
