@@ -68,8 +68,13 @@ mkdir chatwoot
 cd chatwoot
 </p>
 wget -O docker-compose.yaml https://raw.githubusercontent.com/chatwoot/chatwoot/develop/docker-compose.production.yaml
+wget -O .env https://raw.githubusercontent.com/chatwoot/chatwoot/develop/.env.example
 </p>
 nano docker-compose.yaml
+</p>
+nano .env
+</p>
+Coloque as usuario, DB, senhas Postgres igual.
 </p>
 
 **Prepare o banco de dados executando as migrações**
