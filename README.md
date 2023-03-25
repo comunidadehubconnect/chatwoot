@@ -144,26 +144,25 @@ WIDGET_BRAND_URL
 
 sudo apt update && apt upgrade -y
 </p>
-Baixe o contêiner do Chatwoot do Docker Hub usando o seguinte comando
-</p>
-sudo docker pull chatwoot/chatwoot
+curl -L https://get.docker.com | sh
 </p>
 mkdir chatwoot
 </p>
 cd chatwoot
 </p>
-wget -O docker-compose.yaml https://raw.githubusercontent.com/chatwoot/chatwoot/develop/docker-compose.production.yaml
-wget -O .env https://raw.githubusercontent.com/chatwoot/chatwoot/develop/.env.example
+https://github.com/EngajamentoFlow/chatwoot/blob/main/.env
+</p>
+https://github.com/EngajamentoFlow/chatwoot/blob/main/docker-compose.yaml
 </p>
 nano docker-compose.yaml
 </p>
 nano .env
 </p>
-colocar mesma senha usuário e banco de dados nos dois arquivos postgres
+Colocar mesma senha usuário e banco de dados nos dois arquivos postgres
 </p>
 Altere as linhas .env
 </p>
-FRONTEND_URL=
+FRONTEND_URL=SeuDominio
 </p>
 DEFAULT_LOCALE=pt_BR
 </p>
@@ -180,9 +179,6 @@ docker compose run --rm rails bundle exec rails db:chatwoot_prepare
 
 </p>
 docker compose up -d
-</p>
-</p>
-Acesse: seudominio.com.br
 </p>
 
 **Configure o Nginx para servir como um proxy de front-end**
@@ -255,15 +251,17 @@ server {
 </p>
 sudo ln -s /etc/nginx/sites-available/chatwoot /etc/nginx/sites-enabled
  </p>
-sudo service nginx restart
- </p>
 sudo apt-get install snapd
- </p>
-sudo snap install notes
  </p>
 sudo snap install --classic certbot
  </p>
 sudo certbot --nginx
+ </p>
+ Coloque Email: 
+ </p>
+ Y
+ </p>
+ Y
  </p>
 sudo service nginx restart
 </p>
@@ -274,6 +272,35 @@ Faça seu cadastro
 ----------------------------------------------------------------------------
 
 **Habilitando configurações ocultas do Chatwoot**
+
+Acesse:
+
+http://IP:3003
+
+Login: admin@admin.com.br
+Senha: pgadmin
+
+<img src="https://github.com/EngajamentoFlow/chatwoot/blob/main/Registrar.png" alt="Chatwoot-logo" width="100" />
+
+<img src="https://github.com/EngajamentoFlow/chatwoot/blob/main/Acessando.png" alt="Chatwoot-logo" width="100" />
+
+<img src="https://github.com/EngajamentoFlow/chatwoot/blob/main/Registrar.png" alt="Chatwoot-logo" width="100" />
+
+<img src="https://github.com/EngajamentoFlow/chatwoot/blob/main/Server.png" alt="Chatwoot-logo" width="100" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </p>
 No banco de dados PostgreSQL
