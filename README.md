@@ -1,6 +1,6 @@
 <p align="center">
-	<img src="https://www.portainer.io/hubfs/portainer-logo-black.svg" alt="Quepasa-logo" width="100" />	
-	<p align="center">Implante, configure, solucione problemas e proteja contêineres em minutos no Kubernetes, Docker, Swarm e Nomad em qualquer data center, nuvem, borda de rede ou dispositivo IIOT</p>
+	<img src="https://www.chatwoot.com/docs/img/logo.png" alt="Chatwoot-logo" width="100" />	
+	<p align="center">O Chatwoot oferece todas as ferramentas para gerenciar conversas, construir relacionamentos e encantar seus clientes em um só lugar.</p>
 </p>
 <hr />
 <p align="left">
