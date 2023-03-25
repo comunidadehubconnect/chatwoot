@@ -160,17 +160,19 @@ server {
   </p>
 }
 </p>
-nginx -t
-</p>
-systemctl reload nginx
-</p>
-apt  install certbot
-</p>
-apt-get install python3-certbot-nginx
-</p>
-mkdir -p /var/www/ssl-proof/chatwoot/.well-known
-</p>
-certbot --webroot -w /var/www/ssl-proof/chatwoot/ -d dominio.com -i nginx
+sudo ln -s /etc/nginx/sites-available/portainer /etc/nginx/sites-enabled
+ </p>
+sudo service nginx restart
+ </p>
+sudo apt-get install snapd
+ </p>
+sudo snap install notes
+ </p>
+sudo snap install --classic certbot
+ </p>
+sudo certbot --nginx
+ </p>
+sudo service nginx restart
 </p>
 
 ----------------------------------------------------------------------------
