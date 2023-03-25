@@ -54,7 +54,7 @@ Acesse: seudominio.com.br
 
 ----------------------------------------------------------------------------
 
-*Versão Docker*
+**Versão Docker**
 
 **Manual de Instalação ChatWoot via Docker**
 
