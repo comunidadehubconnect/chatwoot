@@ -49,7 +49,11 @@ yes
 </p>
 yes
 </p>
-Alterando Idioma e atiavando sua tela de cadastro
+
+----------------------------------------------------------------------------
+
+**Alterando Idioma e atiavando sua tela de cadastro**
+
 </p>
 cd /home/chatwoot/chatwoot
 </p>
@@ -66,6 +70,71 @@ sudo systemctl restart chatwoot.target
 Acesse: seudominio.com.br
 </p>
 Faça seu cadastro
+</p>
+
+----------------------------------------------------------------------------
+
+**Habilitando configurações ocultas do Chatwoot**
+
+</p>
+No banco de dados PostgreSQL
+</p>
+sudo -u postgres psql
+</p>
+\c chatwoot_production
+</p>
+update installation_configs set locked = false;
+</p>
+\q
+</p>
+
+----------------------------------------------------------------------------
+
+**Trocando LOGO E NOMES CHATWOOT TERMOS E POLITICA DE PRIVACIDADE**
+
+</p>
+LOGO:
+</p>
+Acesse seu FTP
+</p>
+/home/chatwoot/chatwoot/public/brand-assets
+</p>
+Suba dois arquivos com esse nome
+</p>
+brand-assets/logo.png
+</p>
+logo.png
+
+**Acesse super Admin**
+</p>
+https://seudominio.com.br/super_admin
+</p>
+Opção>installation_configs
+</p>
+LOGO
+</p>
+LOGO_THUMBNAIL
+</p>
+NOMES CHATWOOT:
+</p>
+Alterando nomes na plataforma
+</p>
+INSTALLATION_NAME
+</p>
+BRAND_NAME
+</p>
+TERMOS E POLITICA DE PRIVACIDADE
+</p>
+TERMS_URL
+</p>
+PRIVACY_URL
+</p>
+BRAND_URL
+</p>
+WIDGET_BRAND_URL
+</p>
+
+----------------------------------------------------------------------------
 
 ----------------------------------------------------------------------------
 
@@ -203,6 +272,72 @@ Acesse: seudominio.com.br
 Faça seu cadastro
 
 ----------------------------------------------------------------------------
+
+**Habilitando configurações ocultas do Chatwoot**
+
+</p>
+No banco de dados PostgreSQL
+</p>
+sudo -u postgres psql
+</p>
+\c chatwoot_production
+</p>
+update installation_configs set locked = false;
+</p>
+\q
+</p>
+
+----------------------------------------------------------------------------
+
+**Trocando LOGO E NOMES CHATWOOT TERMOS E POLITICA DE PRIVACIDADE**
+
+</p>
+LOGO:
+</p>
+Acesse seu FTP
+</p>
+/home/chatwoot/chatwoot/public/brand-assets
+</p>
+Suba dois arquivos com esse nome
+</p>
+brand-assets/logo.png
+</p>
+logo.png
+
+**Acesse super Admin**
+</p>
+https://seudominio.com.br/super_admin
+</p>
+Opção>installation_configs
+</p>
+LOGO
+</p>
+LOGO_THUMBNAIL
+</p>
+NOMES CHATWOOT:
+</p>
+Alterando nomes na plataforma
+</p>
+INSTALLATION_NAME
+</p>
+BRAND_NAME
+</p>
+TERMOS E POLITICA DE PRIVACIDADE
+</p>
+TERMS_URL
+</p>
+PRIVACY_URL
+</p>
+BRAND_URL
+</p>
+WIDGET_BRAND_URL
+</p>
+
+**Recopile**
+
+cd pastainstalada
+
+docker compose up -d
 
 **Gostou do Tutorial? Faça sua Contribuição**
 
