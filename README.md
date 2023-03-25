@@ -98,7 +98,7 @@ sudo apt-get install nginx
 </p>
 cd /etc/nginx/sites-enabled
 </p>
-nano chatwoot.conf
+sudo nano /etc/nginx/sites-available/chatwoot
 </p>
 server {
 </p>
@@ -160,7 +160,7 @@ server {
   </p>
 }
 </p>
-sudo ln -s /etc/nginx/sites-available/portainer /etc/nginx/sites-enabled
+sudo ln -s /etc/nginx/sites-available/chatwoot /etc/nginx/sites-enabled
  </p>
 sudo service nginx restart
  </p>
