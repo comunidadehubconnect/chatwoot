@@ -50,6 +50,7 @@ yes
 </p>
 yes
 </p>
+Acesse: seudominio.com.br
 
 ----------------------------------------------------------------------------
 
@@ -79,6 +80,8 @@ Coloque o serviço em funcionamento
 </p>
 docker compose up -d
 </p>
+</p>
+Acesse: seudominio.com.br
 </p>
 
 **Gostou do Tutorial? Faça sua Contribuição**
