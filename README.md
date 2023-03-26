@@ -141,20 +141,8 @@ git clone https://github.com/EngajamentoFlow/chatwoot
 </p>
 cd chatwoot
 </p>
-nano docker-compose.yaml
-</p>
-nano .env
-</p>
-Colocar mesma senha usuário e banco de dados nos dois arquivos postgres
-</p>
-Altere as linhas .env
-</p>
-FRONTEND_URL=SeuDominio
-</p>
-DEFAULT_LOCALE=pt_BR
-</p>
-ENABLE_ACCOUNT_SIGNUP=true
-</p>
+
+----------------------------------------------------------------------------
 
 **Prepare o banco de dados executando as migrações**
 
