@@ -262,7 +262,7 @@ sudo service nginx restart
 </p>
 Acesse:
 </p>
-http://pgadmin.socialatendimento.com.br
+http://pgadmin.seudominio.com.br
 </p>
 Login: admin@admin.com.br
 Senha: pgadmin
