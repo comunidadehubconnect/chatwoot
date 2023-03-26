@@ -137,10 +137,6 @@ sudo apt update && apt upgrade -y
 </p>
 curl -L https://get.docker.com | sh
 </p>
-mkdir chatwoot
-</p>
-cd chatwoot
-</p>
 git clone https://github.com/EngajamentoFlow/chatwoot
 </p>
 nano docker-compose.yaml
