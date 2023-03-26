@@ -268,7 +268,7 @@ server {
 </p>
   location / {
 </p></p>
-    proxy_pass http://127.0.0.1:5678;
+    proxy_pass http://127.0.0.1:3003;
 </p>
     proxy_http_version 1.1;
 </p>
