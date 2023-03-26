@@ -260,9 +260,50 @@ Faça seu cadastro
 
 **Habilitando configurações ocultas do Chatwoot**
 
+sudo nano /etc/nginx/sites-available/pgadmin
+</p>
+server {
+</p>
+  server_name pgadmin.socialatendimento.com.br;
+</p>
+  location / {
+</p></p>
+    proxy_pass http://127.0.0.1:5678;
+</p>
+    proxy_http_version 1.1;
+</p>
+    proxy_set_header Upgrade $http_upgrade;
+</p>
+    proxy_set_header Connection 'upgrade';
+</p>
+    proxy_set_header Host $host;
+
+    proxy_set_header X-Real-IP $remote_addr;
+</p>
+    proxy_set_header X-Forwarded-Proto $scheme;
+</p>
+    proxy_set</p>_header X-Forwarded-For $proxy_add_x_forwarded_for;
+
+    proxy_cache_bypass $http_upgrade;
+</p>
+    proxy_buffering off;
+</p>
+    proxy_cache off;
+</p>
+  }
+</p>
+  }
+</p>
+sudo ln -s /etc/nginx/sites-available/pgadmin /etc/nginx/sites-enabled
+ </p>
+sudo certbot --nginx
+</p>
+sudo service nginx restart
+</p>
+</p>
 Acesse:
 </p>
-http://IP:3003
+http://pgadmin.socialatendimento.com.br
 </p>
 Login: admin@admin.com.br
 Senha: pgadmin
