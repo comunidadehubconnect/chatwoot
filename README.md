@@ -6,7 +6,7 @@
 <p align="left">
 	<img src="https://telegram.org/favicon.ico" alt="Telegram-logo" width="32" />
 	<span>Grupo e Canal Telegram: </span>
-	<a href="[https://t.me/quepasa_api](https://t.me/chatwootbrasil)" target="_blank">Grupo</a>
+	<a href="[https://t.me/chatwootbrasil)" target="_blank">Grupo</a>
 	<span> </span>
 </p>
 <hr />
