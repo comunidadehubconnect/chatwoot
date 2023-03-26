@@ -178,7 +178,6 @@ sudo nano /etc/nginx/sites-available/chatwoot
 
 ```
 server {
-</p>
   server_name seudominio.com>;
   # Point upstream to Chatwoot App Server
   set $upstream 127.0.0.1:3000;
