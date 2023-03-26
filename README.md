@@ -151,6 +151,10 @@ Altere linha 4 com seu dominio
 **Prepare o banco de dados executando as migrações**
 
 </p>
+sudo systemctl restart docker
+</p>
+
+</p>
 docker compose run --rm rails bundle exec rails db:chatwoot_prepare
 </p>
 
@@ -170,7 +174,7 @@ sudo nano /etc/nginx/sites-available/chatwoot
 
 ```
 server {
-  server_name seudominio.com>;
+  server_name seudominio.com;
   # Point upstream to Chatwoot App Server
   set $upstream 127.0.0.1:3000;
   # Nginx strips out underscore in headers by default
