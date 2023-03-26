@@ -373,7 +373,6 @@ WIDGET_BRAND_URL
 
 cd chatwoot
 
-docker compose stop
 docker compose up -d
 
 **Gostou do Tutorial? Faça sua Contribuição**
