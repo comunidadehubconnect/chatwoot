@@ -139,6 +139,8 @@ curl -L https://get.docker.com | sh
 </p>
 git clone https://github.com/EngajamentoFlow/chatwoot
 </p>
+cd chatwoot
+</p>
 nano docker-compose.yaml
 </p>
 nano .env
