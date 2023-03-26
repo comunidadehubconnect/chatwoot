@@ -141,6 +141,10 @@ git clone https://github.com/EngajamentoFlow/chatwoot
 </p>
 cd chatwoot
 </p>
+nano .env
+</p>
+Altere linha 4 com seu dominio
+</p>
 
 ----------------------------------------------------------------------------
 
