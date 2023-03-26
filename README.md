@@ -56,7 +56,7 @@ yes
 
 ----------------------------------------------------------------------------
 
-**Alterando Idioma e atiavando sua tela de cadastro**
+**Alterando Idioma e ativando sua tela de cadastro**
 
 </p>
 cd /home/chatwoot/chatwoot
