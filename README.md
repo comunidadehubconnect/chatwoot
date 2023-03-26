@@ -141,9 +141,7 @@ mkdir chatwoot
 </p>
 cd chatwoot
 </p>
-https://github.com/EngajamentoFlow/chatwoot/blob/main/.env
-</p>
-https://github.com/EngajamentoFlow/chatwoot/blob/main/docker-compose.yaml
+https://github.com/EngajamentoFlow/chatwoot
 </p>
 nano docker-compose.yaml
 </p>
