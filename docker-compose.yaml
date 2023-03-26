@@ -60,7 +60,7 @@ services:
     container_name: chatwoot-pgadmin4
     hostname: chatwoot-pgadmin4
     environment:
-      PGADMIN_DEFAULT_EMAIL: "seuemail@seudominio.com.br"
-      PGADMIN_DEFAULT_PASSWORD: "postgres"
+      PGADMIN_DEFAULT_EMAIL: "admin@admin.com.br"
+      PGADMIN_DEFAULT_PASSWORD: "admin"
     ports:
       - '3003:80'
