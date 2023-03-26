@@ -176,7 +176,7 @@ cd /etc/nginx/sites-enabled
 </p>
 sudo nano /etc/nginx/sites-available/chatwoot
 </p>
-""server {
+server {
 </p>
   server_name <yourdomain.com>;
   </p>
@@ -234,7 +234,7 @@ sudo nano /etc/nginx/sites-available/chatwoot
   </p>
   listen 80;
   </p>
-}""
+}
 </p>
 sudo ln -s /etc/nginx/sites-available/chatwoot /etc/nginx/sites-enabled
  </p>
