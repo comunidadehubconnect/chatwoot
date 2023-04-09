@@ -171,6 +171,7 @@ sudo apt-get install nginx
 cd /etc/nginx/sites-enabled
 </p>
 sudo nano /etc/nginx/sites-available/chatwoot
+</p>
 
 ```
 server {
