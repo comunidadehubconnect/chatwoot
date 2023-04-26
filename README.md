@@ -125,6 +125,15 @@ BRAND_URL
 WIDGET_BRAND_URL
 </p>
 
+**TRADUÇÂO DE EMAIL**
+
+cd /home/chatwoot/chatwoot/app/views/devise/mailer
+</p>
+https://github.com/EngajamentoFlow
+</p>
+unzip mailer.zip
+</p>
+
 ----------------------------------------------------------------------------
 
 ----------------------------------------------------------------------------
