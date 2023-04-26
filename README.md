@@ -131,9 +131,19 @@ WIDGET_BRAND_URL
 
 cd /home/chatwoot/chatwoot/app/views/devise/mailer
 </p>
-git clone https://github.com/EngajamentoFlow
+git clone https://github.com/EngajamentoFlow/chatwoot
+</p>
+mv /home/chatwoot/chatwoot/app/views/devise/mailer/chatwoot/mailer.zip /home/chatwoot/chatwoot/app/views/devise/mailer
+</p>
+sudo apt-get install unzip
 </p>
 unzip mailer.zip
+</p>
+y
+</p>
+y
+</p>
+y
 </p>
 
 ----------------------------------------------------------------------------
