@@ -49,9 +49,7 @@ chatwoot.dominio.com.br
 </p>
 contato@dominio.com.br
 </p>
-yes
-</p>
-yes
+yes para todos
 </p>
 
 ----------------------------------------------------------------------------
