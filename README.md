@@ -56,15 +56,15 @@ yes para todos
 
 **Novos Comandos para atualizar Chatwoot com novas funções**
 
-🆘 Atenção um por vez
-
-👉 sudo -i -u chatwoot
-
-👉 cd chatwoot
-
-👉 git checkout develop && git pull
-
-# Apenas se for primeira fez que esta atualizando Ruby
+Atenção um por vez
+</p>
+sudo -i -u chatwoot
+</p>
+cd chatwoot
+</p>
+git checkout develop && git pull
+</p>
+Apenas se for primeira fez que esta atualizando Ruby
 </p>
 rvm reinstall ruby-3.2.2
 </p>
