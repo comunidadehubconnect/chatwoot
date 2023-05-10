@@ -54,6 +54,39 @@ yes para todos
 
 ----------------------------------------------------------------------------
 
+**Novos Comandos para atualizar Chatwoot com novas funções**
+
+🆘 Atenção um por vez
+
+👉 sudo -i -u chatwoot
+
+👉 cd chatwoot
+
+👉 git checkout develop && git pull
+
+# Apenas se for primeira fez que esta atualizando Ruby
+</p>
+rvm reinstall ruby-3.2.2
+</p>
+rvm use 3.2.2 --default
+</p>
+bundle
+</p>
+yarn
+</p>
+rake assets:precompile RAILS_ENV=production
+</p>
+RAILS_ENV=production bundle exec rake db:migrate
+</p>
+exit
+</p>
+systemctl daemon-reload
+</p>
+systemctl restart chatwoot.target
+</p>
+
+----------------------------------------------------------------------------
+
 **Alterando Idioma e ativando sua tela de cadastro**
 
 </p>
