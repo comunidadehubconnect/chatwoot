@@ -10,7 +10,7 @@
 	<span>Grupo WhatsaAPP: </span>
 	<a href="https://chat.whatsapp.com/CLKge3hmHmmBcIL04mBzmT" target="_blank">Grupo</a>
 </p>
-----------------------------------------------------------------------------
+<hr />
 </p>
 
 **Gostou do Tutorial? Faça sua Contribuição**
