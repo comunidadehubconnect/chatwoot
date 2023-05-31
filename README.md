@@ -3,11 +3,6 @@
 	<p align="center">O Chatwoot oferece todas as ferramentas para gerenciar conversas, construir relacionamentos e encantar seus clientes em um só lugar.</p>
 </p>
 <hr />
-<p align="left">
-	<img src="https://telegram.org/favicon.ico" alt="Telegram-logo" width="32" />
-	<span>Grupo e Canal Telegram: </span>
-	<a href="https://t.me/chatwootbrasil" target="_blank">Grupo</a>
-	<span> </span>
 </p>
 <hr />
 <p align="left">
@@ -154,23 +149,6 @@ PRIVACY_URL
 BRAND_URL
 </p>
 WIDGET_BRAND_URL
-</p>
-
-----------------------------------------------------------------------------
-
-**TRADUÇÂO DE EMAIL**
-
-cd /home/chatwoot/chatwoot/app/views/devise/mailer
-</p>
-git clone https://github.com/EngajamentoFlow/chatwoot
-</p>
-mv /home/chatwoot/chatwoot/app/views/devise/mailer/chatwoot/mailer.zip /home/chatwoot/chatwoot/app/views/devise/mailer
-</p>
-sudo apt-get install unzip
-</p>
-unzip mailer.zip
-</p>
-yes
 </p>
 
 ----------------------------------------------------------------------------
