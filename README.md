@@ -24,7 +24,8 @@
 45959142000119	
 ```
 
-----------------------------------------------------------------------------
+<hr />
+<hr />
 
 **Manual de Instalação ChatWoot**
 
@@ -47,40 +48,9 @@ contato@dominio.com.br
 yes para todos
 </p>
 
-----------------------------------------------------------------------------
+<hr />
+<hr />
 
-**Novos Comandos para atualizar Chatwoot com novas funções**
-
-Atenção um por vez
-</p>
-sudo -i -u chatwoot
-</p>
-cd chatwoot
-</p>
-git checkout develop && git pull
-</p>
-Apenas se for primeira fez que esta atualizando Ruby
-</p>
-rvm reinstall ruby-3.2.2
-</p>
-rvm use 3.2.2 --default
-</p>
-bundle
-</p>
-yarn
-</p>
-rake assets:precompile RAILS_ENV=production
-</p>
-RAILS_ENV=production bundle exec rake db:migrate
-</p>
-exit
-</p>
-systemctl daemon-reload
-</p>
-systemctl restart chatwoot.target
-</p>
-
-----------------------------------------------------------------------------
 
 **Alterando Idioma e ativando sua tela de cadastro**
 
@@ -102,7 +72,8 @@ Acesse: seudominio.com.br
 Faça seu cadastro
 </p>
 
-----------------------------------------------------------------------------
+<hr />
+<hr />
 
 **Habilitando configurações ocultas do Chatwoot**
 
@@ -118,7 +89,8 @@ update installation_configs set locked = false;
 \q
 </p>
 
-----------------------------------------------------------------------------
+<hr />
+<hr />
 
 **NOMES CHATWOOT TERMOS E POLITICA DE PRIVACIDADE**
 
@@ -151,9 +123,8 @@ BRAND_URL
 WIDGET_BRAND_URL
 </p>
 
-----------------------------------------------------------------------------
-
-----------------------------------------------------------------------------
+<hr />
+<hr />
 
 **Gostou do Tutorial? Faça sua Contribuição**
 
@@ -165,4 +136,5 @@ WIDGET_BRAND_URL
 ```
 45959142000119	
 ```
-----------------------------------------------------------------------------
+<hr />
+<hr />
