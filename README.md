@@ -18,12 +18,6 @@
 <img src="https://github.com/EngajamentoFlow/quepasa/blob/main/Contribui%C3%A7%C3%A3o.png" alt="Quepasa-logo" width="200" />
 </p>
 
-**PIX CNPJ**
-
-```
-45959142000119	
-```
-
 <hr />
 <hr />
 
@@ -41,7 +35,7 @@ Use as opções abaixo
 </p>
 yes
 </p>
-chatwoot.dominio.com.br
+app.dominio.com.br
 </p>
 contato@dominio.com.br
 </p>
@@ -80,7 +74,7 @@ Faça seu cadastro
 </p>
 No banco de dados PostgreSQL
 </p>
-sudo -u postgres psql
+sudo -i -u postgres psql
 </p>
 \c chatwoot_production
 </p>
@@ -125,13 +119,6 @@ WIDGET_BRAND_URL
 
 <hr />
 <hr />
-
-**Gostou do Tutorial? Faça sua Contribuição**
-
-<img src="https://github.com/EngajamentoFlow/quepasa/blob/main/Contribui%C3%A7%C3%A3o.png" alt="Quepasa-logo" width="200" />
-</p>
-
-**PIX CNPJ**
 
 ```
 45959142000119	
