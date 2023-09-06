@@ -1,52 +1,47 @@
 <p align="center">
-	<img src="https://www.chatwoot.com/docs/img/logo.png" alt="Chatwoot-logo" width="100" />	
-	<p align="center">O Chatwoot oferece todas as ferramentas para gerenciar conversas, construir relacionamentos e encantar seus clientes em um só lugar.</p>
+<img src="https://cwmkt.com.br/wp-content/uploads/2023/08/logo-github-cwmkt.svg" alt="DispZap Whats Marketing" width="240" />
+<p align="center">Seja bem-vindo ao Guia de atualização do n8n, nodejs e quepasa 🚀</p>
 </p>
-<hr />
-</p>
-<hr />
-<p align="left">
-	<img src="https://whatsapp.com/favicon.ico" alt="WhatsAPP-logo" width="32" />
-	<span>Grupo WhatsaAPP: </span>
-	<a href="https://chat.whatsapp.com/CLKge3hmHmmBcIL04mBzmT" target="_blank">Grupo</a>
-</p>
-<hr />
-</p>
-
-**Gostou do Tutorial? Faça sua Contribuição**
-
-<img src="https://github.com/EngajamentoFlow/quepasa/blob/main/Contribui%C3%A7%C3%A3o.png" alt="Quepasa-logo" width="200" />
+  
+<p align="center">
+<img src="https://whatsapp.com/favicon.ico" alt="WhatsAPP-logo" width="32" />
+<span>Grupo WhatsaAPP: </span>
+<a href="https://link.cwmkt.com.br/grupo-whats" target="_blank">Grupo</a>
 </p>
 
 <hr />
 <hr />
 
-**Manual de Instalação ChatWoot**
+### Manual de Instalação ChatWoot
 
+```bash
 sudo apt update && apt upgrade -y
-</p>
+```
+
+```bash
 wget https://get.chatwoot.app/linux/install.sh
-</p>
+```
+
+```bash
 chmod +x install.sh
-</p>
+```
+
+```bash
 ./install.sh --install
-</p>
+```
+
 Use as opções abaixo
-</p>
+
 yes
-</p>
+
 app.dominio.com.br
-</p>
+
 contato@dominio.com.br
-</p>
+
 yes para todos
-</p>
-
-<hr />
-<hr />
 
 
-**Alterando Idioma e ativando sua tela de cadastro**
+### Alterando Idioma e ativando sua tela de cadastro
 
 </p>
 cd /home/chatwoot/chatwoot
@@ -66,62 +61,41 @@ Acesse: seudominio.com.br
 Faça seu cadastro
 </p>
 
-<hr />
-<hr />
+### Habilitando configurações ocultas do Chatwoot
 
-**Habilitando configurações ocultas do Chatwoot**
-
-</p>
-No banco de dados PostgreSQL
-</p>
+```bash
 sudo -i -u postgres psql
-</p>
 \c chatwoot_production
-</p>
 update installation_configs set locked = false;
-</p>
 \q
-</p>
+```
 
-<hr />
-<hr />
+### NOMES CHATWOOT TERMOS E POLITICA DE PRIVACIDADE
 
-**NOMES CHATWOOT TERMOS E POLITICA DE PRIVACIDADE**
+Acesse super Admin
 
-**Acesse super Admin**
-</p>
 https://seudominio.com.br/super_admin
-</p>
+
 Opção>installation_configs
-</p>
+
 LOGO
-</p>
+
 LOGO_THUMBNAIL
-</p>
+
 NOMES CHATWOOT:
-</p>
+
 Alterando nomes na plataforma
-</p>
+
 INSTALLATION_NAME
-</p>
+
 BRAND_NAME
-</p>
+
 TERMOS E POLITICA DE PRIVACIDADE
-</p>
+
 TERMS_URL
-</p>
+
 PRIVACY_URL
-</p>
+
 BRAND_URL
-</p>
+
 WIDGET_BRAND_URL
-</p>
-
-<hr />
-<hr />
-
-```
-45959142000119	
-```
-<hr />
-<hr />
