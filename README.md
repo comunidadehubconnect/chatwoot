@@ -12,7 +12,8 @@
 <hr />
 <hr />
 
-### Manual de Instalação ChatWoot
+<details>
+<summary>Manual de Instalação ChatWoot</summary>
 
 ```bash
 sudo apt update && apt upgrade -y
@@ -39,7 +40,7 @@ app.dominio.com.br
 contato@dominio.com.br
 
 yes para todos
-
+</details>
 
 ### Alterando Idioma e ativando sua tela de cadastro
 
@@ -130,4 +131,5 @@ systemctl restart chatwoot.target
 ```
 
 Pronto! Downgrade realizado com sucesso ✅😎
-<details>
+
+</details>
