@@ -99,3 +99,35 @@ PRIVACY_URL
 BRAND_URL
 
 WIDGET_BRAND_URL
+
+<details>
+<summary>Downgrade versão do Chatwoot</summary>
+
+### Como fazer downgrade no seu Chatwwoot
+
+```bash
+sudo -i -u chatwoot
+
+cd chatwoot
+
+git checkout tag/commit (pega o commit ou tag da versão em https://github.com/chatwoot/chatwoot/releases)
+
+bundle
+
+yarn
+
+rake assets:precompile RAILS_ENV=production
+
+RAILS_ENV=production bundle exec rake db:migrate
+
+exit
+```
+
+```bash
+systemctl daemon-reload
+
+systemctl restart chatwoot.target
+```
+
+Pronto! Downgrade realizado com sucesso ✅😎
+<details>
