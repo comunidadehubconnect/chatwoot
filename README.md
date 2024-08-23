@@ -42,23 +42,28 @@ yes para todos
 
 ### Alterando Idioma e ativando sua tela de cadastro
 
-</p>
+```bash
 cd /home/chatwoot/chatwoot
-</p>
+```
+
+```bash
 nano .env
-</p>
+```
+
 Altere a linha
-</p>
+
 DEFAULT_LOCALE=pt_BR
-</p>
+
 ENABLE_ACCOUNT_SIGNUP=true
-</p>
+
+```bash
 sudo systemctl restart chatwoot.target
-</p>
+```
+
 Acesse: seudominio.com.br
-</p>
-Faça seu cadastro
-</p>
+
+Faça seu cadastro ✅
+
 
 ### Habilitando configurações ocultas do Chatwoot
 
